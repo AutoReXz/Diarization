@@ -1,0 +1,105 @@
+{
+  "segments": [
+    {
+      "speaker": "Speaker 1",
+      "start": 0.521,
+      "end": 4.873,
+      "text": "Selamat pagi semuanya, terima kasih sudah bergabung di meeting hari ini.",
+      "words": [
+        { "word": "Selamat", "start": 0.521, "end": 0.891, "speaker": "Speaker 1" },
+        { "word": "pagi", "start": 0.911, "end": 1.201, "speaker": "Speaker 1" },
+        { "word": "semuanya,", "start": 1.241, "end": 1.792, "speaker": "Speaker 1" },
+        { "word": "terima", "start": 2.103, "end": 2.453, "speaker": "Speaker 1" },
+        { "word": "kasih", "start": 2.473, "end": 2.813, "speaker": "Speaker 1" },
+        { "word": "sudah", "start": 2.853, "end": 3.183, "speaker": "Speaker 1" },
+        { "word": "bergabung", "start": 3.213, "end": 3.724, "speaker": "Speaker 1" },
+        { "word": "di", "start": 3.754, "end": 3.884, "speaker": "Speaker 1" },
+        { "word": "meeting", "start": 3.914, "end": 4.254, "speaker": "Speaker 1" },
+        { "word": "hari", "start": 4.284, "end": 4.534, "speaker": "Speaker 1" },
+        { "word": "ini.", "start": 4.564, "end": 4.873, "speaker": "Speaker 1" }
+      ]
+    },
+    {
+      "speaker": "Speaker 2",
+      "start": 5.241,
+      "end": 8.193,
+      "text": "Pagi, siap. Saya sudah siapkan materinya.",
+      "words": [
+        { "word": "Pagi,", "start": 5.241, "end": 5.581, "speaker": "Speaker 2" },
+        { "word": "siap.", "start": 5.621, "end": 5.981, "speaker": "Speaker 2" },
+        { "word": "Saya", "start": 6.312, "end": 6.582, "speaker": "Speaker 2" },
+        { "word": "sudah", "start": 6.612, "end": 6.932, "speaker": "Speaker 2" },
+        { "word": "siapkan", "start": 6.962, "end": 7.433, "speaker": "Speaker 2" },
+        { "word": "materinya.", "start": 7.463, "end": 8.193, "speaker": "Speaker 2" }
+      ]
+    },
+    {
+      "speaker": "Speaker 1",
+      "start": 8.892,
+      "end": 14.521,
+      "text": "Bagus. Jadi agenda hari ini kita akan bahas progress sprint kemarin dan planning untuk sprint berikutnya.",
+      "words": [
+        { "word": "Bagus.", "start": 8.892, "end": 9.272, "speaker": "Speaker 1" },
+        { "word": "Jadi", "start": 9.543, "end": 9.793, "speaker": "Speaker 1" },
+        { "word": "agenda", "start": 9.823, "end": 10.233, "speaker": "Speaker 1" },
+        { "word": "hari", "start": 10.263, "end": 10.503, "speaker": "Speaker 1" },
+        { "word": "ini", "start": 10.533, "end": 10.723, "speaker": "Speaker 1" },
+        { "word": "kita", "start": 10.753, "end": 11.003, "speaker": "Speaker 1" },
+        { "word": "akan", "start": 11.033, "end": 11.273, "speaker": "Speaker 1" },
+        { "word": "bahas", "start": 11.303, "end": 11.623, "speaker": "Speaker 1" },
+        { "word": "progress", "start": 11.653, "end": 12.093, "speaker": "Speaker 1" },
+        { "word": "sprint", "start": 12.123, "end": 12.503, "speaker": "Speaker 1" },
+        { "word": "kemarin", "start": 12.533, "end": 13.013, "speaker": "Speaker 1" },
+        { "word": "dan", "start": 13.043, "end": 13.243, "speaker": "Speaker 1" },
+        { "word": "planning", "start": 13.273, "end": 13.673, "speaker": "Speaker 1" },
+        { "word": "untuk", "start": 13.703, "end": 13.973, "speaker": "Speaker 1" },
+        { "word": "sprint", "start": 14.003, "end": 14.293, "speaker": "Speaker 1" },
+        { "word": "berikutnya.", "start": 14.003, "end": 14.521, "speaker": "Speaker 1" }
+      ]
+    },
+    {
+      "speaker": "Speaker 3",
+      "start": 15.102,
+      "end": 19.413,
+      "text": "Saya mau update, fitur authentication sudah selesai dan sudah di-merge ke branch main.",
+      "words": [
+        { "word": "Saya", "start": 15.102, "end": 15.372, "speaker": "Speaker 3" },
+        { "word": "mau", "start": 15.402, "end": 15.602, "speaker": "Speaker 3" },
+        { "word": "update,", "start": 15.632, "end": 16.052, "speaker": "Speaker 3" },
+        { "word": "fitur", "start": 16.303, "end": 16.613, "speaker": "Speaker 3" },
+        { "word": "authentication", "start": 16.643, "end": 17.413, "speaker": "Speaker 3" },
+        { "word": "sudah", "start": 17.443, "end": 17.733, "speaker": "Speaker 3" },
+        { "word": "selesai", "start": 17.763, "end": 18.173, "speaker": "Speaker 3" },
+        { "word": "dan", "start": 18.203, "end": 18.353, "speaker": "Speaker 3" },
+        { "word": "sudah", "start": 18.383, "end": 18.643, "speaker": "Speaker 3" },
+        { "word": "di-merge", "start": 18.673, "end": 19.043, "speaker": "Speaker 3" },
+        { "word": "ke", "start": 19.073, "end": 19.173, "speaker": "Speaker 3" },
+        { "word": "branch", "start": 19.073, "end": 19.243, "speaker": "Speaker 3" },
+        { "word": "main.", "start": 19.273, "end": 19.413, "speaker": "Speaker 3" }
+      ]
+    },
+    {
+      "speaker": "Speaker 2",
+      "start": 20.001,
+      "end": 23.782,
+      "text": "Nice, dari sisi frontend saya masih ada satu bug yang perlu di-fix di halaman dashboard.",
+      "words": [
+        { "word": "Nice,", "start": 20.001, "end": 20.311, "speaker": "Speaker 2" },
+        { "word": "dari", "start": 20.452, "end": 20.682, "speaker": "Speaker 2" },
+        { "word": "sisi", "start": 20.712, "end": 20.942, "speaker": "Speaker 2" },
+        { "word": "frontend", "start": 20.972, "end": 21.412, "speaker": "Speaker 2" },
+        { "word": "saya", "start": 21.442, "end": 21.672, "speaker": "Speaker 2" },
+        { "word": "masih", "start": 21.702, "end": 21.972, "speaker": "Speaker 2" },
+        { "word": "ada", "start": 22.002, "end": 22.192, "speaker": "Speaker 2" },
+        { "word": "satu", "start": 22.222, "end": 22.472, "speaker": "Speaker 2" },
+        { "word": "bug", "start": 22.502, "end": 22.722, "speaker": "Speaker 2" },
+        { "word": "yang", "start": 22.752, "end": 22.932, "speaker": "Speaker 2" },
+        { "word": "perlu", "start": 22.962, "end": 23.212, "speaker": "Speaker 2" },
+        { "word": "di-fix", "start": 23.242, "end": 23.522, "speaker": "Speaker 2" },
+        { "word": "di", "start": 23.522, "end": 23.612, "speaker": "Speaker 2" },
+        { "word": "halaman", "start": 23.522, "end": 23.642, "speaker": "Speaker 2" },
+        { "word": "dashboard.", "start": 23.412, "end": 23.782, "speaker": "Speaker 2" }
+      ]
+    }
+  ]
+}

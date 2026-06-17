@@ -1,0 +1,5 @@
+[00:00:00.521 → 00:00:04.873]  Speaker 1:  Selamat pagi semuanya, terima kasih sudah bergabung di meeting hari ini.
+[00:00:05.241 → 00:00:08.193]  Speaker 2:  Pagi, siap. Saya sudah siapkan materinya.
+[00:00:08.892 → 00:00:14.521]  Speaker 1:  Bagus. Jadi agenda hari ini kita akan bahas progress sprint kemarin dan planning untuk sprint berikutnya.
+[00:00:15.102 → 00:00:19.413]  Speaker 3:  Saya mau update, fitur authentication sudah selesai dan sudah di-merge ke branch main.
+[00:00:20.001 → 00:00:23.782]  Speaker 2:  Nice, dari sisi frontend saya masih ada satu bug yang perlu di-fix di halaman dashboard.

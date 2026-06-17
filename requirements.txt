@@ -1,0 +1,56 @@
+# ============================================================
+# Speech-to-Text + Speaker Diarization Pipeline - Dependencies
+# ============================================================
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# Pre-requisites (system-level):
+#   - Python 3.9 – 3.11
+#   - ffmpeg  (https://ffmpeg.org/download.html)
+#   - Git (for some pip installs from GitHub)
+#
+# GPU support (optional but recommended):
+#   Install PyTorch with CUDA first:
+#     pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu121
+#   Then install the rest of the requirements.
+# ============================================================
+
+# --- Core ML / Audio ---
+torch>=2.0.0
+torchaudio>=2.0.0
+# torchvision must match torch major version exactly:
+#   torch 2.6.x -> torchvision 0.21.x
+#   torch 2.7.x -> torchvision 0.22.x
+#   torch 2.8.x -> torchvision 0.23.x
+# Mismatches cause "operator torchvision::nms does not exist" at import.
+# Install manually to match your torch build, e.g.:
+#   pip install torchvision --index-url https://download.pytorch.org/whl/cpu
+#   pip install torchvision --index-url https://download.pytorch.org/whl/cu121
+torchvision
+
+# --- WhisperX (ASR + forced alignment + word timestamps) ---
+# Install from GitHub for the latest version
+whisperx @ git+https://github.com/m-bain/whisperX.git
+
+# --- Pyannote (speaker diarization) ---
+pyannote.audio>=3.1.0
+
+# --- Transformers ---
+# transformers >= 4.42 removed the `Pipeline` base class from its top-level
+# public API.  A one-line compatibility shim in app.py restores it at runtime,
+# so we do NOT pin the version here -- any recent version works.
+transformers>=4.23.0
+
+# --- Audio I/O & processing ---
+soundfile>=0.12.0
+librosa>=0.10.0
+pydub>=0.25.1
+
+# --- UI ---
+streamlit>=1.30.0
+
+# --- Utilities ---
+rich>=13.0.0          # pretty terminal output
+tqdm>=4.65.0
+python-dotenv>=1.0.0
